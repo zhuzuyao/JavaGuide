@@ -1,0 +1,244 @@
+分布式  
+集群 
+
+负载均衡   
+
+读写分离
+
+数据库同步 
+
+数据库路由  
+
+一主多从  mycat
+
+内存缓存  
+
+一张表  五百万 到一千万 条数据  
+
+水平拆分  垂直拆分
+
+rpc框架 去调用  
+
+负载均衡服务器   监控  大数据分析  
+
+应用层面监控   系统层面的监控  
+
+单点故障  
+
+DOS 攻击  
+
+滑动窗口协议  
+
+多路复用器 
+
+swigger
+
+
+
+fuzhou  -  ningde
+
+
+compiler   
+
+
+
+1.对于支付的日志 异常的记录 
+2.对于后台页面美观  加载的时间
+3.对于接口加载时间的优化
+4.对于app版本更新 
+5.对于app 异常的优化 ，比如没有网络的提示  接口报错的提示 
+6串联各个口的进度计划，明确时间和目标，把控需求和进度 （内部 和 外部 ）
+7对服务器配置要了解 
+8.对于数据库 每周五都要备份一次 （防止阿里云有问题 。。。。）
+9.图片压缩机制 
+10注入攻击的预防 
+11 渗透攻击 
+12 接口测试  
+13 站点 
+
+
+
+
+1、【阿里云项目服务器迁移华为云服务器】 需求id：012
+2、【阿里云项目服务器迁移华为云服务器】 需求id：038
+
+
+xiaoxionzijia
+zzy
+@xxzj123
+
+
+华为云短信
+APP Secret
+XTKaUbZ7tJW7BJnJIeHW0HyAGeC1
+
+
+
+//官网后台管理
+http://localhost:8083/manage/index.html
+
+//官网页面
+http://localhost:8083/guangwang/index.html
+
+
+demo_api
+
+需求点  版本规划  分支管理 
+
+
+裁剪 
+
+整合  obs
+
+官网后台整合一起 
+
+
+
+
+
+        <!-- spring 封装的websocketAPI  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+
+#外包的包名
+ xxzj_demo   
+
+
+
+imgs.xiaoxiongzijia.com
+
+fjzj-app-res.xiaoxiongzijia.com
+
+
+fjzj-web-res.xiaoxiongzijia.com
+
+
+fjzj-img.xiaoxiongzijia.com
+
+
+xxzjy.obs.cn-east-3.myhuaweicloud.com
+
+
+
+fjzj-app-res
+fjzj-web-res
+fjzj-img
+
+
+images
+
+videos
+
+
+1.还有一些 h5页面  要部署 
+2.梦薇打包合伙人h5包 
+3.外包的那个不是接口 是 页面 
+
+
+4.全部都打包  配置文件 
+
+
+配置文件 
+git 忽略文件夹 
+
+
+
+公众号那里 的合伙人地址要改代码 
+
+微信小程序之前上架是不是用域名   
+
+
+二维码是否会产生    得绑定域名来测试  
+
+
+app数据的迁移  
+
+
+
+
+http://123.60.43.75/manage/index.html 官网后台
+http://123.60.43.75/ 官网主页
+http://123.60.43.75:81 后管
+http://123.60.43.75:82 app api（正式，双负载）
+http://123.60.43.75:83 app api （测试）
+http://123.60.43.75:84 工行支付
+http://123.60.43.75:85 demo（原外包）
+http://123.60.43.75:86 微信公众号
+
+
+
+
+入职申请表
+
+
+
+
+
+
+1.阿里云服务器域名绑定华为ip未及时生效影响到了微信小程序，展示版
+2.合伙人h5端前端页面打包有问题，需等待重新打包
+3.app， 后台管理系统，官网主页及后台，现已可用
+遗留问题，在周三上午修复
+
+
+
+#微信公众号域名 指向微信公众号那台服务器
+http://weixin.xiaoxiongzijia.com
+
+#公众号的合伙人域名 指向微信公众号那台服务器前段页面  ？
+http://partner.xiaoxiongzijia.com
+
+//展示版本接口
+http://zhanshi.xiaoxiongzijia.com
+
+//后台管理系统正式域名
+http://power.manage.xiaoxiongzijia.com
+
+//官网页面
+http://www.xiaoxiongzijia.com
+
+//工行支付
+http://gonghang-pay.xiaoxiongzijia.com
+
+//app接口
+http://app.xiaoxiongzijia.com
+
+
+k8s  应用层优化    
+
+
+
+
+测试环境的搭建  
+
+
+
+
+
+
+下载app的桶 和更新app的桶
+数据迁移 
+服务器 报的网络问题
+
+HzRfR2NeP8LKm3ot
+
+
+
+
+# 小熊自驾后管前端
+server {
+	listen       8083;
+	root         /java/project/manage;
+	location / {
+		try_files $uri /index.html;
+	}
+}
+
+
+
+1、【1.13.3】 id：099
+2、【1.13.3】 id：122
+3、【1.13.3】 id：121
